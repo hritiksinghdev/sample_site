@@ -44,11 +44,8 @@ export default function Footer() {
 
         {/* Mobile: simplified accordion-style footer */}
         <div className="lg:hidden py-10">
-          <div className="flex items-center gap-2 mb-6">
-            <img src="/logo.svg" alt="House of Rhea" className="h-8 w-auto invert brightness-200" />
-            <span className="font-heading text-base tracking-[0.06em] text-white">
-              HOUSE OF RHEA
-            </span>
+          <div className="mb-6">
+            <img src="/logo.png" alt="House of Rhea" className="h-12 w-auto brightness-150" />
           </div>
           <p className="text-white/40 text-xs font-light leading-relaxed mb-8">
             Statement pieces that speak. Designed in India for the world.
@@ -85,11 +82,8 @@ export default function Footer() {
         {/* Desktop: full footer — unchanged */}
         <div className="hidden lg:grid py-16 lg:py-20 grid-cols-5 gap-10">
           <div className="col-span-1">
-            <Link to="/" className="flex items-center gap-2">
-              <img src="/logo.svg" alt="House of Rhea" className="h-10 w-auto invert brightness-200" />
-              <span className="font-heading text-xl tracking-[0.06em] text-white">
-                HOUSE OF RHEA
-              </span>
+            <Link to="/">
+              <img src="/logo.png" alt="House of Rhea" className="h-14 w-auto brightness-150" />
             </Link>
             <p className="text-white/40 text-sm font-light mt-4 leading-relaxed">
               Statement pieces that speak. Designed in India for the world.

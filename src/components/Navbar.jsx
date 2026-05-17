@@ -33,10 +33,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between h-12 px-4">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.svg" alt="House of Rhea" className="h-8 w-auto" />
-            <span className="font-heading text-base tracking-[0.06em] text-primary leading-none">
-              HOUSE OF RHEA
-            </span>
+            <img src="/logo.png" alt="House of Rhea" className="h-9 w-auto" />
           </Link>
           <div className="flex items-center gap-4">
             <button className="text-primary relative" aria-label="Cart">
@@ -62,12 +59,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <Link to="/" className="flex items-center gap-3">
-              <img src="/logo.svg" alt="House of Rhea" className="h-10 lg:h-12 w-auto" />
-              <div className="hidden sm:block">
-                <span className="font-heading text-lg lg:text-xl tracking-[0.06em] text-primary leading-none block">
-                  HOUSE OF RHEA
-                </span>
-              </div>
+              <img src="/logo.png" alt="House of Rhea" className="h-12 lg:h-14 w-auto" />
             </Link>
 
             <div className="hidden lg:flex items-center gap-10">
