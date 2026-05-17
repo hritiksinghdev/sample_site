@@ -96,14 +96,14 @@ export const categories = [
     image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80',
   },
   {
-    name: "Men's",
-    subtitle: 'Resort & casual',
-    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80',
-  },
-  {
     name: 'Wedding Customs',
     subtitle: 'Made for your day',
     image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&q=80',
+  },
+  {
+    name: "Men's",
+    subtitle: 'Resort & casual',
+    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80',
   },
 ];
 
