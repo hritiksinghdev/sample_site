@@ -7,6 +7,7 @@ import EditorialBanner from '../components/EditorialBanner';
 import Testimonials from '../components/Testimonials';
 import GalleryStrip from '../components/GalleryStrip';
 import Footer from '../components/Footer';
+import MobileBottomNav from '../components/MobileBottomNav';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Testimonials />
       <GalleryStrip />
       <Footer />
+      <MobileBottomNav />
     </>
   );
 }
